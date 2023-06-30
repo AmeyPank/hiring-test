@@ -288,9 +288,9 @@ input[type="radio"]:checked+label {
 }
 
 footer {
-  width: 100vw;
-  margin-left: -15%;
-  margin-right: -10%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
   background-image: url("./img/footer-Polygon 2.png");
   background-repeat: no-repeat;
@@ -298,6 +298,7 @@ footer {
   display: flex;
   font-family: 'Poppins', sans-serif;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   height: 493px;
 }
