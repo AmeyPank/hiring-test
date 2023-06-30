@@ -4,13 +4,23 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 90em;
   height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   font-family: 'Inter', sans-serif;
-  background-image: url("../src/img/layer1.png");
-  background-size: cover;
+
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/Group 1.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .buttonSample {
@@ -41,7 +51,8 @@ body {
 .App {
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 80em;
+  padding: 1em;
 }
 
 .first-section {
@@ -50,12 +61,13 @@ body {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 1240px;
   height: 652px;
   position: relative;
 }
 
-.first-section .images {
+.images {
+  position: relative;
   left: 4em;
 }
 
@@ -68,16 +80,13 @@ body {
 .title {
   margin-top: 0;
   color: white;
+  width: 580px;
   font-size: 48px;
 }
 
 .para1 {
   color: #fff;
   width: 433px;
-}
-
-.images {
-  position: relative;
 }
 
 #group75,
@@ -99,7 +108,7 @@ body {
 
 #Wing {
   position: relative;
-  width: 597px;
+  width: 431px;
   height: 441px;
   top: 20em;
 }
@@ -121,7 +130,7 @@ body {
 
 .course {
   display: flex;
-  width: 80%;
+  width: 1240px;
   /* align-items: center; */
   justify-content: space-between;
   margin-left: auto;
@@ -169,7 +178,7 @@ body {
 }
 
 .frame78 {
-  width: 80%;
+  width: 1240px;
   font-family: 'Poppins', sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -219,10 +228,10 @@ input[type="radio"]:checked+label {
 
 
 .group77 {
-  width: 1090px;
+  width: 1240px;
   height: 257px;
   display: flex;
-  margin-top: 3.8em;
+  margin-top: 3em;
   justify-content: space-between;
   display: flex;
 }
@@ -272,14 +281,17 @@ input[type="radio"]:checked+label {
 }
 
 .carousel {
-  width: 80%;
+  width: 1240px;
   margin-left: auto;
   margin-right: auto;
   height: 512px;
 }
 
 footer {
-  width: 100vw;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   background-image: url("./img/footer-Polygon 2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,15 +315,16 @@ footer {
 }
 
 .frame-88 {
-  margin-left: auto;
-  margin-right: auto;
+
   color: #fff;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 80%;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   border-top: 1px solid #ccc;
   height: 74px;
 }

@@ -12,11 +12,15 @@ import facebook from './img/Vector.png';
 import youtube from './img/Vector (1).png';
 import instagram from './img/Vector (2).png';
 import twitter from './img/Vector (3).png';
+import Background from './Components/Background';
 
 function App() {
   return (
     <div className="App">
+
+
       <Header />
+
       <section className='first-section info'>
         <div className="learn">
           <h1 className='title'>Learn how to launch a successful podcast</h1>
