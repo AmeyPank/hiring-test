@@ -1,0 +1,74 @@
+.carouselTitle-container {
+    width: 462px;
+    height: 108px;
+}
+
+.mainCarousel {
+    margin-top: 5em;
+}
+
+
+
+.Box {
+    margin: 0 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    /* Adjust the margin value as per your requirement */
+}
+
+
+
+
+.slick-dots li.slick-active {
+    transform: scale(3);
+}
+
+.custom-dot::before {
+    content: none;
+}
+
+/* Change the color of the previous arrow */
+.slick-prev,
+.slick-next {
+    background: #4776E6;
+    border-radius: 20px;
+}
+
+.slick-next:hover {
+    background: #7A3199;
+}
+
+.slick-prev:hover {
+    background: #7A3199;
+}
+
+/* Override the active dot styles */
+.slick-dots li.slick-active button:before {
+
+    color: #7A3199;
+    /* Set the color of the active dot */
+}
+
+.main-content {
+    width: 465px;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+
+    width: 226px;
+    height: 70px;
+    margin: 0 10px;
+    display: flex;
+
+}
+
+.inner-content {
+    margin: 0 15px;
+}
+
+.review h6 {
+    font-size: 12px;
+}

@@ -1,38 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  background-image: url("../src/img/layer1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttonSample {
+  width: 237px;
+  height: 74px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8E54E9, #4776E6);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5em;
+}
+
+.signUpBtn.buttonSample {
+  width: 237px;
+  height: 74px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8E54E9, #4776E6);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5em;
+  cursor: pointer;
+}
+
 .App {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first-section {
+  margin-top: 5em;
   display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 652px;
+  position: relative;
+}
+
+.first-section .images {
+  left: 4em;
+}
+
+.learn {
+  position: relative;
+  top: -2em;
+  height: 371px;
+}
+
+.title {
+  margin-top: 0;
+  color: white;
+  font-size: 48px;
+}
+
+.para1 {
+  color: #fff;
+  width: 433px;
+}
+
+.images {
+  position: relative;
+}
+
+#group75,
+#GroupB,
+#EveryOne,
+#earPhone,
+#mic {
+  position: absolute;
+}
+
+#GroupB {
+  top: -.5em;
+}
+
+#EveryOne {
+  top: -6em;
+  left: 3em;
+}
+
+#Wing {
+  position: relative;
+  width: 597px;
+  height: 441px;
+  top: 20em;
+}
+
+#group75 {
+  top: -3em;
+  left: 3em;
+}
+
+
+#earPhone {
+  left: 32em;
+}
+
+#mic {
+  top: 12em;
+  left: 28em;
+}
+
+.course {
+  display: flex;
+  width: 80%;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  height: 571px;
+}
+
+.CourseSize {
+  box-sizing: border-box;
+  border: 1px solid #8E54E9;
+  width: 280px;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.courseInfo {
+  margin-left: 50px;
+  display: flex;
+}
+
+.courseInfoTwo {
+  display: flex;
+  margin-top: 3em;
+  flex-direction: column;
+}
+
+.courseTitle {
+  margin-top: 4em;
+  align-items: center;
+  box-sizing: border-box;
+  width: 550px;
+  height: 166px;
+}
+
+.courseTitle h1 {
+  font-size: 40px;
+}
+
+.courseTitle p {
+  width: 371px;
+}
+
+.frame78 {
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 691px;
+  background-image: url("./img/Group 79.png");
+  background-repeat: no-repeat;
+
+}
+
+.group78 {
+  box-sizing: border-box;
+  width: 455px;
+  height: 577px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.radioButton {
+  width: 151px;
+  height: 37px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hide the default radio button */
+input[type="radio"] {
+  display: none;
+}
+
+/* Change background when radio button is checked */
+input[type="radio"]:checked+label {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #E1A6FF;
+}
+
+
+.group77 {
+  width: 1090px;
+  height: 257px;
+  display: flex;
+  margin-top: 3.8em;
+  justify-content: space-between;
+  display: flex;
+}
+
+.plan {
+  width: 303px;
+  height: 357px;
+  background-color: #fff;
+  padding-left: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #4776E6;
+}
+
+.frame1 {
+  width: 249px;
+
+}
+
+.plan ul {
+  line-height: 1.5em;
+  padding-left: 15px;
+}
+
+#price {
+  color: #7A3199;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#pricePara {
+  display: flex;
+  flex-direction: row;
+  width: 144px;
+  height: 39px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.premium {
+  background-color: #7A3199;
+  color: #fff !important;
+}
+
+.premium #price {
+  color: #ffff;
+}
+
+.carousel {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 512px;
+}
+
+footer {
+  width: 100vw;
+  background-image: url("./img/footer-Polygon 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 493px;
+}
+
+.frame-92 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 596px;
+  height: 241px;
+}
+
+.frame-88 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  border-top: 1px solid #ccc;
+  height: 74px;
+}
+
+.linksAndIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linksAndIcons ul {
+  display: flex;
+  margin-left: 5em;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.icons {
+  margin-left: 5em;
+  padding: 20px;
+  display: flex;
 }

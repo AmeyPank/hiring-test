@@ -1,0 +1,43 @@
+body {
+    width: 90em;
+}
+
+.polygon-1 {
+    width: 1500px;
+    height: 1255.42px;
+    transform: rotate(-32.57deg);
+    flex-shrink: 0;
+    background: linear-gradient(to bottom, #7A3199, #161033);
+    position: absolute;
+    top: -40em;
+    left: -30em;
+    z-index: -1;
+
+}
+
+.eclipse {
+    width: 700px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--secondary, #7A3199);
+    position: absolute;
+    top: -15em;
+    left: -18em;
+    z-index: 1;
+}
+
+
+
+.polygon-2 {
+    width: 0;
+    height: 0;
+    border-top: 600px solid transparent;
+    border-right: 850px solid #161033;
+    border-bottom: 600px solid transparent;
+    transform: rotate(60deg);
+    position: absolute;
+    z-index: 1;
+    top: -43em;
+    left: 30em
+}
