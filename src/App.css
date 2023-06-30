@@ -288,9 +288,9 @@ input[type="radio"]:checked+label {
 }
 
 footer {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100vw;
+  margin-left: -15%;
+  margin-right: -10%;
   margin-bottom: 0;
   background-image: url("./img/footer-Polygon 2.png");
   background-repeat: no-repeat;
@@ -315,7 +315,6 @@ footer {
 }
 
 .frame-88 {
-
   color: #fff;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
@@ -325,8 +324,18 @@ footer {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1px solid #ccc;
+  position: relative;
   height: 74px;
+}
+
+.frame-88::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #baa6d9, #8E54E9);
 }
 
 .linksAndIcons {
