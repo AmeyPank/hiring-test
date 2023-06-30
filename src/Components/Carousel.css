@@ -1,3 +1,5 @@
+
+
 .carouselTitle-container {
     width: 462px;
     height: 108px;
@@ -28,7 +30,7 @@
 }
 
 /* Change the color of the previous arrow */
-.slick-prev,
+/* .slick-prev,
 .slick-next {
     background: #4776E6;
     border-radius: 20px;
@@ -40,7 +42,7 @@
 
 .slick-prev:hover {
     background: #7A3199;
-}
+} */
 
 /* Override the active dot styles */
 .slick-dots li.slick-active button:before {
